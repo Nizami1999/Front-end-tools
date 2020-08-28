@@ -1,0 +1,12 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
+#skills{
+    background: rgb(61, 156, 156) !important;  /* if we write here "!important -> then this one will be shown in your window, not that, which you wrote in section part like class = "bg-info" */
+}
+
+.height {
+    min-height: 90vh;
+}
+

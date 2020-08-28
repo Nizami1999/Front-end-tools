@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--fontawesome CSS-->
+    <link rel = 'stylesheet' href="./css/all.min.css">
+    <link rel = 'stylesheet' href="./css/fontawesome.min.css">
+    
+    <!--fontawesome JS-->
+    <script src="./js/all.js"></script>
+    
+    <!--Bootstrap CSS-->
+    <link rel = 'stylesheet' href="./css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+   
+    <!-- Main CSS-->
+    <link rel = "stylesheet" href = "./css/main.css">
+
+
+</head>
+
+
+<body>
+    
+<!--container-->
+
+<div class="container bg-info">
+    <div class="row">
+        <div class="col">
+            <h1 class = "text-light"><strong>Standart headding</strong></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nam et nobis reiciendis, perferendis aspernatur illum
+                 quaerat totam ab laborum sit!</p>
+            <button type="button" class="btn btn-primary mb-4 ">Primary button</button>
+            <button type="button" class="btn btn-danger mb-4">Danger button</button>
+
+        </div>
+    </div>
+</div>
+
+<!--container-fluid-->
+<div class="container-fluid bg-danger text-white py-5 ">
+    <div class="row">
+        <div class="col ">
+            <h1 class="display-3">Learn Bootstrap easily</h1>
+            <p1 class="display-4">Be a Front-End developer</p1>
+            <p class = "mx-5 my-3 lead text-dark font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Praesentium quibusdam animi tempore, 
+                laudantium ipsam sequi nisi unde libero mollitia rerum?</p>
+            <button type = "button" class = "btn btn-warning float-right "><u>Registration</u></button>
+        </div>
+    </div>
+</div>
+<!--section-->
+<section id = 'skills' class = "bg-info text-center py-5 ">
+    <div class="container">
+        <div class="row height align-items-center">
+            <!-- We can use align-items-center(...) with a row, because row - is a flex box parent element, and doubtless you must have height, if you wanna see any changes -->
+            <div class="col">
+                <h1 class=" text-dark my-3">First Section</h1>
+                <p class = "text-white py-3 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Labore illum beatae perferendis in adipisci tempore sapiente, commodi sequi esse rem 
+                    delectus eveniet magni, est placeat ullam perspiciatis voluptatibus voluptas dolorem.</p>
+                <p class = "text-left py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident modi ut repellat molestiae soluta,
+                     facere doloribus magni eligendi beatae incidunt?</p>    
+                <button type="button" class="btn btn-dark text-light p-3">Plan</button>
+                <button type="button" class="btn btn-dark text-light p-3 mx-4">Analyse</button>
+                <button type="button" class="btn btn-dark text-light p-3">Execute</button>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- we can use justify-content-center(...) only when our columns are(is) col-(1,2,3,4,5,6,7,8,9,10,11,12){one of them [divided]} -->
+<!--section_2-->
+<section class="bg-light">
+    <div class="container">
+        <div class="row height justify-content-center align-items-center">
+            <div class="col-9">
+                <h1 class = "display-2 text-danger text-left text-uppercase mb-5"><strong>udemy</strong></h1>
+                <p class="text-muted lead mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed iusto dolores natus maxime porro animi soluta eligendi iste, voluptates veritatis autem sapiente nesciunt neque nostrum eius consequuntur accusamus odit eum ex eveniet impedit suscipit ut quibusdam. Magni magnam alias porro.</p>
+                <a href="#" class="btn btn-danger text-light text-uppercase mt-4 p-2">sell</a>
+                <a href="#" class="btn btn-danger text-light text-uppercase mx-3 mt-4 p-2">Buy</a>
+                <a href="#" class="btn btn-primary text-light float-right text-uppercase mt-4 ml-5 p-2 px-3"><u>seacrh</u></a>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--grid-->
+<section class="bg-primary py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-danger text-center text-light">
+                <i class="fas fa-home fa-3x"></i>
+                <h3>fa-home</h1>
+            </div>
+            <div class="col bg-warning text-center text-light">
+                <i class="fas fa-home fa-3x"></i>
+                <h3>fa-home</h1>
+
+            </div>
+            <div class="col bg-success text-center text-light">
+                <i class="fas fa-home fa-3x"></i>
+                <h3>fa-home</h1>
+
+            </div>
+            <div class="col bg-secondary text-center text-light">
+                <i class="fas fa-home fa-3x"></i>
+                <h3>fa-home</h1>
+
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+<!--grid-2-->
+<section class="bg-success py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8 text-dark bg-info">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>phone</h3>
+            </div>
+            <div class="col-4 text-dark bg-light">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>phone</h3>
+            </div>
+            <div class="col-3 text-dark bg-light">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>phone</h3>
+            </div>
+            <div class="col-9 text-dark bg-info">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>phone</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--grid 3-->
+<section class="py-4">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fab fa-html5 fa-5x text-info"></i>
+                <h2 class="text-dark text-capitalize py-3 ">learn html 5</h2>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore explicabo minima eligendi deserunt voluptate, vitae sequi totam optio nesciunt!
+
+                </p>
+            </div>
+            <div class="col-md-4">
+                <i class="fab fa-css3 fa-5x text-primary"></i>
+                <h2 class="text-dark text-capitalize py-3 ">learn css 3</h2>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore explicabo minima eligendi deserunt voluptate, vitae sequi totam optio nesciunt!
+
+                </p>
+            </div>
+            <div class="col-md-4">
+                <i class="fab fa-js fa-5x text-warning"></i>
+                <h2 class="text-dark text-capitalize py-3 ">learn js 5</h2>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore explicabo minima eligendi deserunt voluptate, vitae sequi totam optio nesciunt!
+                </p>
+            </div>
+        
+            <!--При маленьком окне изображение другое и при среднем(большом) другое из-за "col-md-4" -->
+
+        </div>
+    </div>
+</section>
+
+<!--final section-->
+
+<section class="py-4 bg-danger">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4">
+                <i class="fab fa-html5 fa-5x text-light"></i>
+                <h2 class="text-light text-capitalize py-3 ">learn html 5</h2>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore explicabo minima eligendi deserunt voluptate, vitae sequi totam optio nesciunt!
+
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-6 col-xl-4">
+                <i class="fab fa-css3 fa-5x text-light"></i>
+                <h2 class="text-light text-capitalize py-3 ">learn css 3</h2>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore explicabo minima eligendi deserunt voluptate, vitae sequi totam optio nesciunt!
+
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4">
+                <i class="fab fa-js fa-5x text-light"></i>
+                <h2 class="text-light text-capitalize py-3 ">learn js 5</h2>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore explicabo minima eligendi deserunt voluptate, vitae sequi totam optio nesciunt!
+                </p>
+            </div>
+        
+            <!--При маленьком окне изображение другое и при среднем(большом) другое из-за "col-md-4... " -->
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery -->
+<script src = './js/jquery-3.4.1.min.js'></script>
+<!-- Bootstrap JS -->
+<script src="./js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>

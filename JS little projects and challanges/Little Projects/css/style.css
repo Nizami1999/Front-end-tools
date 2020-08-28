@@ -1,0 +1,132 @@
+body{
+    background-color: #cceedd;
+    min-height: 100vh;
+    text-align: center;
+}
+
+*{
+    outline: none;
+}
+
+/* 1 */
+
+.banner{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 25px 0 50px 0;
+}
+
+.message{
+    font-size: 40px;
+    text-align: left;
+    background-color: #fff;
+    width: 75%;
+    height: 150px;
+    padding: 20px 20px;
+    margin: 20px auto 40px auto;
+}
+
+#text{
+    font-size: 30px;
+    padding: 40px 20px;
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn{
+    margin: 40px 10px;
+    padding: 10px 15px;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.btn:hover{
+    color: white;
+    background-color: tomato;
+}
+
+
+/* 2 */
+
+.quote-text{
+    min-height: 30vh;
+    background-color: wheat;
+    padding: 2rem 3rem;
+    border-left: black;
+    margin: 3rem auto 0 auto;
+    width: 75%;
+}
+
+.author{
+    float: right;
+}
+
+/* 3 and 4 */ 
+
+#section, #section-2{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section h1, #section-2 h1{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.value, .value-2{
+    font-size: 3rem;
+}
+
+/* 5 */
+
+.boys{
+    min-height: 70vh;
+}
+
+.container{
+    padding: 3rem 2rem;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 3rem;
+    color: rgb(38, 110, 218);
+}
+
+.title h3{
+    font-size: 2.2rem;
+    color: rgb(38, 110, 218);
+
+
+}
+
+.btn-next{
+    padding: 0.7rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-next:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+
+/* 6 */
+
+.names-new h1{
+    display: none;
+}
+
+.names-new h1:first-child{
+    display: block;
+}

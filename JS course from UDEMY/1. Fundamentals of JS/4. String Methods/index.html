@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let val;
+        // append
+        val = 'Nizami';
+        val += ' Alimamedov';
+
+        console.log(val);
+        
+        // Escaping
+        console.log('That\'s awesome I can\'t wait');
+        
+        // Concat()
+        val = val.concat(' - ' + 'developer');
+        console.log(val);
+        
+        // Upper nad Lower case
+        val = val.toLowerCase();
+        val = val.toUpperCase();
+        console.log(val);
+
+        //indexOf()
+        console.log(val.indexOf('M'));
+        console.log(val.lastIndexOf('M'));
+
+        //charAt()
+        console.log(val.charAt(7));
+        // get last charackter
+        console.log(val.charAt(val.length - 1));
+        
+        //substring()
+        console.log(val.substring(0,4));
+
+        //slice()
+        console.log(val.slice(0,4));
+
+        //split()
+        const sentence = 'Hello my name is Nizami I am programmer';
+        const a = console.log(sentence.split(' '));
+        
+        // replace()
+        // include()
+
+        
+
+    </script>
+</body>
+</html>

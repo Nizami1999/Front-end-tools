@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //1 
+        function greet(firstName, lastName)    {
+            return 'Hello ' + firstName + ' '+ lastName + '!';
+        }
+
+        console.log(greet('Nizami', 'Alimamedov'));
+
+        //2
+        const square = function(x)   {
+            return x*x;
+        }
+
+        console.log(square(8));
+
+        //3 Immidately
+        (function(){
+            console.log('So Faaaaaaaaast!');
+        })();
+
+        //4 with objects
+
+        let id = 100;
+
+        const todo = {
+            add: function() {
+                console.log('Add todo');
+            },
+
+            edit: function() {
+                console.log(`Edit todo ${id}`);
+            }
+        }
+         
+        todo.delete = function() {
+            console.log('Deleted');
+        }
+
+
+        todo.add();
+        todo.edit();
+        todo.delete();
+        
+
+
+        
+    </script>
+</body>
+</html>

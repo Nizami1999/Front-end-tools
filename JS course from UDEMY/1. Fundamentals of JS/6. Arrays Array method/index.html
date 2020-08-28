@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Declaring
+        const numbers = [1,2,3,4,5];
+        const letters = ['hello', 'John', 'Banana', 'apple', 'Web', 2,4,true, new Date()];
+
+        // you can also declare like this:
+        let val = new Array(1,2,3,4,'Nizami',false,null);
+
+
+
+        // MUTATING ARRAYS
+
+            // add to the end 
+            numbers.push(true);
+
+            // add to the front
+            numbers.unshift('First');
+
+            // remove from end 
+            numbers.pop();
+
+            // remove from front
+            numbers.shift();
+
+            //splice values (какую часть из списка удалить, взять)
+            letters.splice(1,3);
+
+            //reverse
+            letters.reverse();   
+
+            // Concatenate (put together)
+            val = letters.concat(numbers);
+
+            // Sorting
+            val.sort();
+
+
+
+        console.log(val);
+        console.log(numbers);
+        console.log(letters);
+    </script>
+</body>
+</html>

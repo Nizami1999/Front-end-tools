@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+<!--Styles files-->
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./libs/jquery.fancybox.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+
+<div class="section bg-dark">
+    <div class="container text-center py-5 text-light">
+        
+        <h1 class="display-3">Плагин fancybox3</h1>
+        <h1 class="display-6 font-italic"><small>Галерея изображений</small></h1>
+
+        <!--Галерея-->
+        <div class="gallery">
+            <div class="row">   <!--      data-fancybox="gallery" --- если не писать его то каждая фотка будет открываться отдельно!        -->
+                <div class="col-md-4 col-sm-12 ">
+
+                    <a data-fancybox="gallery" href="./img/team1.jpg">
+                        <img src="./img/team1.jpg" alt="img" class="img-fluid pt-3">
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 col-sm-12 ">
+
+                    <a data-fancybox="gallery" href="./img/team2.jpg">
+                        <img src="./img/team2.jpg" alt="img" class="img-fluid pt-3">
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 col-sm-12 ">
+
+                    <a data-fancybox="gallery" href="./img/team3.jpg">
+                        <img src="./img/team3.jpg" alt="img" class="img-fluid pt-3">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-4">
+
+        <h2 class="text-center">Ссылки</h2>
+
+        <p>
+            <a data-fancybox data-src="#modal" href="javascript:;">HTML content</a><br>
+            <a data-fancybox href="https://www.youtube.com/watch?v=R_9V2tsCmaU&list=PLRoXQfrhqdOpA6i9YB8dMVuE2Clmsoek2">Youtube Video</a><br>
+            <a data-fancybox href="https://www.instagram.com/p/B99GX5fJSL0/">Instagram</a>
+        </p>
+    </div>
+
+
+
+    
+</div>
+
+<!-- modal window -->
+<div class = "text-center" id="modal" style="display: none;  max-width: 800px;">
+
+    <h2>Modal Window</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi blanditiis nostrum vitae quae facere repellat, in harum magni libero fugit velit esse laboriosam quas deleniti? Praesentium saepe unde repudiandae accusamus.</p>
+    <h3>Note</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempore quia officia provident perspiciatis ipsa hic id nemo ipsum dolor.</p>
+    <img src="./img/project2.jpg" class="img-fluid">
+
+</div>
+
+
+
+
+
+<!--Ready scripts-->
+<script src="./libs/jQuery/jquery-3.4.1.min.js"></script>
+<script src="./libs/jquery.fancybox.min.js"></script>
+
+<!--My script-->
+<script src="./js/main.js"></script>
+
+</body>
+</html>

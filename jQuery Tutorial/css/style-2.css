@@ -1,0 +1,158 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+.even{
+    border: 2px solid red;
+    width: 250px;
+    
+}
+
+.odd{
+    border: 2px solid green;
+    width: 250px;
+}
+
+.append{
+    background-color: blue;
+}
+
+.prepend{
+    background-color: hotpink;
+}
+
+.special{
+    font-size: 40px;
+    background-color: red;
+}
+
+.special-2{
+    color: green;
+}
+
+.big{
+    margin: 5rem 0 1rem 0;
+    border: 2.9px solid black;
+    font-size: 2.1rem;
+    border-radius: 40px;
+    background-color: grey;
+    color: black;
+    padding: 1.2rem;
+    width: 48%;
+}
+
+.big-2{
+    margin: 5rem 0 1rem 0;
+    border: 2.9px solid black;
+    font-size: 2.1rem;
+    border-radius: 40px;
+    background-color: rgb(194, 143, 143);
+    color: rgb(158, 27, 27);
+    padding: 1.2rem;
+    width: 48%;
+}
+
+#btn{
+    border: 1.2px solid black;
+    font-size: 1.1rem;
+    background-color: grey;
+    color: black;
+    padding: 0.2rem;
+    width: 30%;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0 1rem 3.3rem ;
+    border-radius: 15px;
+}
+
+.input-style{
+    border: 2px solid black;
+    padding: 0.4rem 0.8rem;
+    outline: none;
+}
+
+.hover{
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: chocolate;
+}
+
+.hover-2{
+    margin: 4rem 0;
+    font-size: 2rem;
+    color: chocolate;
+}
+
+.font-size{
+    font-size: 3rem;
+}
+
+.change{
+    font-size: 3rem;
+    background-color: cornflowerblue;
+    color: darkblue;
+    font-weight: bold;
+    padding: 0.4rem 1.1rem;
+}
+
+.btn-2{
+    padding: 3rem;
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+.simple{
+    padding: 3rem;
+    font-size: 2rem;
+    margin: 0.3rem 0 0 0;
+    background-color: rgb(224, 52, 52);
+    color: whitesmoke;
+    width: 42%;
+
+}
+
+.special-3{
+    padding: 3rem;
+    font-size: 2rem;
+    margin: 0.3rem 0 0 0;
+    background-color: rgb(255, 230, 91);
+    color: whitesmoke;
+    width: 42%;
+}
+
+.fade, .fade-2, .fadeTo{
+    padding: 3rem;
+    font-size: 2rem;
+    margin: 0.3rem 0 0 0;
+    background-color: rgb(22, 165, 139);
+    color: whitesmoke;
+    width: 42%;
+}
+
+.slide{
+    padding: 3rem;
+    font-size: 2rem;
+    margin: 0.3rem 0 0 0;
+    background-color: rgb(61, 67, 155);
+    color: whitesmoke;
+    width: 42%; 
+}
+
+.anim{
+    padding: 3rem;
+    font-size: 2rem;
+    margin: 0.3rem 0 0 0;
+    background-color: rgb(155, 91, 61);
+    color: whitesmoke;
+    width: 42%; 
+}

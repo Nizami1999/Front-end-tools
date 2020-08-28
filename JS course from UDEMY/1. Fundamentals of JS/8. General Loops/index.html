@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // for
+        let i;
+        for(i = 0; i<=10; i++){
+            if(i === 2){
+                console.log('Number: 2 is my fav number');
+                continue; // чтобы не писать больше 2-ку
+            }
+        console.log(`Number: ${i}`);
+        }
+        console.log('======================================');
+        
+        //while 
+
+        let x = 0;
+
+        while(x < 10){
+
+            console.log(`Number: ${x}`);
+            x++;
+        }
+        console.log('======================================');
+        
+        //do while
+        let y = 0;
+        do{
+             console.log(`Number: ${y}`);
+             y++
+        }
+
+        while(y < 5); 
+
+        console.log('========================================');
+        
+        //array loop
+
+        let cars = ['Tayota', 'BMW', 'Merscedes', 'Range Rower'];
+        for(let i = 0; i < cars.length; i++ ){
+            console.log(cars[i]); // не просто i а вот так!
+        }
+
+        //forEach
+        console.log('========================================');
+            // 1
+        cars.forEach(function(car) {
+            console.log(car);
+        });
+            // 2
+        cars.forEach(function(car,index) {
+            console.log(`${index}: ${car}`);
+        });
+            // 3
+        cars.forEach(function(car, index, array) {
+            console.log(array);
+        });
+
+        //map
+        console.log('========================================');
+
+        let users = [
+            {id: 1, name: 'Nizi'},
+            {id: 2, name: 'Hebib'},
+            {id: 3, name: 'Perviz'},
+            {id: 4, name: 'Ferid'}
+        ]
+
+        const ids = users.map(function(user) {
+            return user.id
+        })
+
+        console.log(ids);
+
+        console.log('========================================');
+
+        // for in 
+        
+        const names1 = {
+            firstName: 'Nizi',
+            lastName: 'Alimamedov',
+            age: 20
+        }
+
+        for(let x in names1){
+            console.log(`${x} : ${names1[x]}`);
+        }
+        
+
+    </script>
+</body>
+</html>

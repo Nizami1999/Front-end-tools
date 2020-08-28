@@ -1,0 +1,53 @@
+
+body{
+    margin: 0;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* в самом самом конце для удаления штучек справа и снизу */
+    position: relative;
+    overflow: hidden;
+}
+
+.bg{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/city.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* МАГИЯ НАЧИНАЕТСЯ!!! :) */
+    filter: blur(10px); /*  мутно  */
+    transition: 1s; /* ЭТО делаем в конце, ПЛАВНОСТЬ!*/
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    position: relative;
+    z-index: 1; /* обезательно используй relative [помогает ставить элемент на первый план]*/
+    transition: 1s;
+}
+
+.logo:hover{
+    filter: blur(10px);
+    transform: scale(2); /* увеличиваем элемент в 2 раза */
+    opacity: 0.8; /* Прозрачность (0-1)*/
+    
+}
+
+.logo:hover~.bg{
+    filter: none;
+    transform: scale(1.2);
+}
+
+

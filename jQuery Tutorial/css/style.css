@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Bebas+Neue|Crimson+Text&display=swap');
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+section{
+    padding: 1.2rem 0;
+}
+
+.container{
+    padding: 0 2rem;
+}
+
+.paragraph{
+    transition: 1s ease-in-out;
+}
+
+.background{
+    background-color: aqua;
+}
+
+.link{
+    background-color: rgb(230, 121, 121);
+    font-size: 1.5rem;
+}
+
+.fontsize{
+    font-size: 2.2rem;
+    background-color: chartreuse;
+}
+
+.external{
+    background-color: red;
+}
+
+.org{
+    background-color: green;
+}
+
+.border{
+    border: 2px solid rebeccapurple;
+}
+
+.bg{
+    background-color: royalblue;
+}
+

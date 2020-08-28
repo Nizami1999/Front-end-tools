@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const name = 'Nizami';
+        const age = '20';
+        const job = 'Web Developer';
+        const city = 'Gence';
+
+        let html;
+
+function Examplefunction()  {
+    return 'Hi my dear friend';
+};
+
+html = `
+    <ul>
+        <li>Name: ${name}</li>
+        <li>Age: ${age}</li>
+        <li>Job: ${job}</li>
+        <li>City: ${city}</li>
+        <li>${2 + 2 }</li>
+        <li>${Examplefunction()}</li>
+        <li>${age > 19 ? 'Over 20' : 'Under 20' }</li>
+    </ul>
+`
+document.body.innerHTML  = html;
+
+
+    </script>
+</body>
+</html>
